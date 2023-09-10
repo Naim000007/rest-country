@@ -1,0 +1,15 @@
+.country {
+    background: bisque;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.country img{
+    width: 250px;
+}
+
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
